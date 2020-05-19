@@ -1,0 +1,17 @@
+.header{
+  height: 48px;
+  background: rgb(125, 125, 125);
+  .container{
+    height: 100%;
+    .logo{
+      display: inline-flex;
+      height: 100%;
+      align-items: center;
+      img{
+        max-height: 40px;
+        width: auto;
+      }
+    }
+  }
+}
+
