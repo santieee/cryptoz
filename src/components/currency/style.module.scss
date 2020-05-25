@@ -1,0 +1,43 @@
+.currencyContainer{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.currency{
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+.addCurrency{
+  display: flex;
+}
+.coinList{
+  margin-top: .5rem;
+}
+.coin{
+  position: relative;
+  display: flex;
+  background: rgba(240, 240, 240, 1);
+  border-radius: .25rem;
+  margin: .25rem 0;
+  .info{
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    .coinName{
+      color: rgba(217, 80, 80, 1);
+    }
+    .top, .bottom{
+      display: flex;
+      justify-content: space-between;
+      padding: .25rem .5rem;
+    }
+    .top{
+      font-size: .75rem;
+    }
+  }
+  
+  .action{
+    width: 30px;
+  }
+}
